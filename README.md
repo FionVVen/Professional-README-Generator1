@@ -1,29 +1,20 @@
 # 
   ![License](https://img.shields.io/badge/License-MIT-blue.svg)
   >## Description
- undefined
-## Table of contents
-* [Description](#Description)
-* [Installation Instructions](#Installation-Instructions)
-* [Usage Information](#Usage-Information)
-* [Contributing](#Contributing)
-* [Test Instructions](#Test-Instructions)
-* [License](#License)
-* [Questions](#Questions)
-## Installation Instructions
-undefined
-## Usage Information
+ Quickly create a professional README file by using a command-line application (i.e. Terminal, Git Bash, etc.) to generate one. Project creators can devote more time to working on the project and less time on creating a README.
+The application uses the inquirer package, and will be invoked by using the following command:
+node index.js
 
-## Contributing
-undefined
-## Test Instructions
+Repository URL: https://github.com/FionVVen/Professional-README-Generator1/
+## Walkthrough Video
+* [Walkthrough Video](https://user-images.githubusercontent.com/74234811/108626486-87660200-74a4-11eb-9dc2-1864e54b4d1c.mp4)
+
 
 ## License
 * [License](#MIT)
 This Project is licensed under MIT
 ## Questions
 ### For further enquiries you can contact me via:
-* GitHub username: undefined
-* [Github Link](https://github.com/undefined/)
-* Email Address: 
+* GitHub username: FionVVen
+
 
