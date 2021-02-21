@@ -1,4 +1,4 @@
-# 
+# Professional-README-Generator
 ## Description
  Quickly create a professional README file by using a command-line application (i.e. Terminal, Git Bash, etc.) to generate one. Project creators can devote more time to working on the project and less time on creating a README.
 The application uses the inquirer package, and will be invoked by using the following command:
