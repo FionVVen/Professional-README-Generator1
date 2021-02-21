@@ -30,11 +30,11 @@ function generateMarkdown(data) {
 * [License](#License)
 * [Questions](#Questions)
 ## Installation Instructions
-${data.instructions}
+${data.instruction}
 ## Usage Information
 ${data.usage}
 ## Contributing
-${data.guideline}
+${data.guildline}
 ## Test Instructions
 ${data.test}
 ## License
@@ -42,7 +42,7 @@ ${data.test}
 This Project is licensed under ${data.license}
 ## Questions
 ### For further enquiries you can contact me via:
-* GitHub username: ${data.Guthub}
+* GitHub username: ${data.Github}
 * [Github Link](https://github.com/${data.githubUsername}/)
 * Email Address: ${data.email}
 

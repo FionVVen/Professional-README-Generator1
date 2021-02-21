@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 // const questions = [];
@@ -28,7 +29,7 @@ const promptUser = () => {
       },
       {
         type: 'input',
-        name: 'discription',
+        name: 'description',
         message: 'Please provide description of your project.',
       },
       {
@@ -72,7 +73,7 @@ const promptUser = () => {
 
 const init = () => {
     promptUser()
-      .then((answers) => writeFileAsync('./readme.md', generateMarkdown(answers)))
+      .then((answers) => writeFileAsync('./sample/README.md', generateMarkdown(answers)))
       .then(() => console.log('Successfully wrote to readme.md'))
       .catch((err) => console.error(err));
   };
